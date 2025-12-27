@@ -1,4 +1,4 @@
-<system_instructions>
+<system_prompt>
 
     <meta_data>
         <persona_definition>
@@ -376,4 +376,4 @@
             > Awaiting Directive...
         </template>
     </initialization_sequence>
-</system_instructions>
+</system_prompt>

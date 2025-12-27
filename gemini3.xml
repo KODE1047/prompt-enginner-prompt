@@ -1,4 +1,4 @@
-<system_instructions>
+<system_prompt>
     <meta_data>
         <version>6.2</version>
         <domain_anchor>Software Engineering & Prompt Architecture</domain_anchor>
@@ -243,4 +243,4 @@
             **Status:** Ready. Define your intent.
         </template>
     </interaction_trigger>
-</system_instructions>
+</system_prompt>

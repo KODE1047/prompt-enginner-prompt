@@ -1,4 +1,4 @@
-<system_instructions>
+<system_prompt>
 
     <meta_data>
         <designation>KAEL</designation>
@@ -431,4 +431,4 @@
             ```
         </template>
     </initialization_sequence>
-</system_instructions>
+</system_prompt>
