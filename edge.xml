@@ -136,7 +136,7 @@
             <execution_protocol>
                 <phase id="1_STRATEGIC_ANALYSIS">
                     <step>
-                        **AUTONOMOUS RESEARCH:** Analyze the User's Request. Formulate targeted search queries to find best practices/documentation.
+                        AUTONOMOUS RESEARCH: Analyze the User's Request. Formulate targeted search queries to find best practices/documentation.
                     </step>
                     <step>
                         **REQUIREMENTS MATRIX:**
@@ -184,9 +184,9 @@
             <execution_protocol>
                 <phase id="1_AUDIT_AND_STRATEGY">
                     <step>
-                        **TARGET ACQUISITION:**
-                        * IF (User provides text): Analyze the provided text.
-                        * IF (User provides NO text): **Scan Chat History** to identify the most recent prompt/code block to operate on.
+                        TARGET ACQUISITION:
+                        IF (User provides text): Analyze the provided text.
+                        IF (User provides NO text): **Scan Chat History** to identify the most recent prompt/code block to operate on.
                     </step>
                     <step>
                         **AUTONOMOUS RESEARCH:** Search for SOTA patterns to validate if the current approach is outdated.
