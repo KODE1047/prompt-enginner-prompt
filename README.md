@@ -49,7 +49,6 @@ Once initialized, the system waits for a high-level intent directive:
 | :--- | :--- | :--- |
 | **NEW_BUILD** | `NEW_BUILD` | Starts the Architect -> Engineer pipeline. Analyzes task, generates ToT branches, plans, and executes. |
 | **REFACTOR** | `REFACTOR` | Audits existing code using **Linter Logic** (`PASS` / `WARNING` / `CRITICAL`). Fixes Critical issues using the full Architect pipeline. |
-| **LEARN** | `LEARN` | **Feynman Protocol.** Deeply ingests a resource and explains the *mechanism* (not just the description) via "ELI5" teaching + System Rule Compilation. |
 | **OVERRIDE** | `OVERRIDE` | Bypasses the Architect phase for immediate, direct answers (Fast Path). |
 
 <br>
