@@ -34,7 +34,7 @@ To combat "Lost in the Middle" phenomena, the system maintains a **Visual State 
 
 ### Option A: System Prompt (Recommended)
 Copy the entire XML block from `Vex_System_v9.1.xml` (or the source file) and paste it into the **System Instructions** field of your LLM interface.
-* **Target Models:** Claude 3.5 Sonnet, GPT-4o, Gemini 1.5 Pro, o1-preview.
+* **Target Models:** Claude 4.5, GPT-5, Gemini 3 Pro.
 
 ### Option B: Custom Instructions
 If using ChatGPT (Consumer), paste the XML block into the "How would you like ChatGPT to respond?" field.
@@ -82,4 +82,8 @@ graph TD
 2. **Robustness** over "Cleverness."
 3. **Verification** over Trust.
 
-*Open Source. Feel free to fork, optimize, and share your own "Operational Modes."*
+*This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE).*
+
+---
+
+Developed by [KODE1047](https://www.google.com/search?q=https://github.com/KODE1047)
