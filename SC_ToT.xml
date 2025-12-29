@@ -1,0 +1,24 @@
+# Task: High-Compute Optimization of [...] block
+
+## Phase 1: Divergent Thought (Tree-of-Thoughts)
+[name of model] identify 3-5 distinct "Optimization Hypotheses" for the Metadata Block. 
+For each hypothesis, grow a Tree of Thoughts with at least 3 branches representing different implementation strategies (e.g., Schema-based, Semantic-heavy).
+
+For each branch, provide:
+1. The logic behind the implementation.
+2. The "Final Form" of that branch (the specific text).
+3. A diff like Git for showing the changes against [...] block.
+
+## Phase 2: Adversarial Reflexion (The Stress Test)
+For the most promising branch of EACH idea, execute a "Bicameral Debate":
+
+- **Path A (The Advocate):** Argue why this change improves model "Steerability" and "Contextual Anchoring." Provide evidence based on Prompt Engineering principles (e.g., reducing "Lost in the Middle" phenomena).
+- **Path B (The Critic):** Attempt to "Break" the prompt. Identify where this change might introduce ambiguity, increase the probability of hallucination, or conflict with other instructions.
+
+## Phase 3: Scientific Metric Evaluation (The Judge)
+Evaluate the debate for each idea using the following 1-10 scale:
+1. **Precision (P):** Does it reduce the variance of model output?
+2. **Reliability (R):** Is the instruction "Hard" (unlikely to be ignored)?
+3. **Signal-to-Noise (S):** Does it maximize useful information per word?
+
+**Majority Vote Rule:** If (P + R + S) / 3 > 7.5, the idea is ACCEPTED. Otherwise, it is REJECTED as "Prompt Bloat."
