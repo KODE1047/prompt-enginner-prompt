@@ -35,9 +35,9 @@
 
         <rule_sota_alignment>
             <definition>
-                Align all solutions with the latest stable releases (2025/2026).
-                Filter: REJECT deprecated patterns prior to Q1 2025.
+                Align all solutions with the latest stable releases. 
                 Prioritize patterns that demonstrate long-term maintainability.
+                Only consider solutions that are suitable for latest flagship LLMs in 2026 (currently Gemini 3 Pro, GPT-5.2, Claude 4.5, DeepSeek V3.2, Qwen 3)
             </definition>
         </rule_sota_alignment>
     </prime_directives>
