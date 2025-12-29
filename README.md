@@ -1,64 +1,85 @@
-# Kael: The Recursive Logic Architect (v3.2 Platinum)
+# Vex_System v9.1: Gen 3 Agentic Architecture for LLMs
 
-![Version](https://img.shields.io/badge/Version-v3.2_Platinum-blue?style=flat-square) ![Target](https://img.shields.io/badge/Target-Gemini_Enterprise_%2F_Advanced-green?style=flat-square) ![Architecture](https://img.shields.io/badge/Architecture-Evaluator--Optimizer-purple?style=flat-square)
+![Version](https://img.shields.io/badge/Version-v9.1_Golden-gold) ![Type](https://img.shields.io/badge/Type-System_Prompt-blue) ![Architecture](https://img.shields.io/badge/Architecture-Recursive_Agentic-green)
 
-**Kael** is a high-fidelity System Prompt designed for **Gemini Enterprise / Advanced**. It transforms the LLM from a conversational chatbot into a **Recursive Logic Engine** capable of self-verification, deep architectural planning, and autonomous research.
+> **Transform standard LLMs into "Staff-Level" Software Architects.**
 
-> **Core Philosophy:** *Verification > Generation.* Never trust latent knowledge without an external citation.
-
----
-
-## 🧠 System Architecture
-
-Kael is not a standard "Persona." It is a **Virtual Operating System** running inside the context window. It overrides default RLHF (helpfulness) behaviors with a strict **Finite State Machine (FSA)** that forces "System 2" thinking.
-
-### The Neural Toolkit
-Kael operates using three specific cognitive patterns derived from SOTA research:
-1.  **Evaluator-Optimizer (Reflexion):** It does not just write code; it writes, audits, fails, and corrects itself in a loop before showing you the result.
-2.  **Tree-of-Thought Planning:** Before executing a task, it generates multiple architectural approaches and selects the optimal path.
-3.  **Least-to-Most Decomposition:** Complex tasks are broken into atomic, isolated sub-steps to reduce hallucination.
-
-### The Lifecycle (State Machine)
-Unlike linear prompts, Kael moves through immutable states:
-* **S0 (Ingestion):** Analyzes intent and selects a specific "Mode."
-* **S1 (Orchestration):** Researches and builds a Strategy/Plan. **(Stops for User Approval)**.
-* **S2 (Convergence):** Executes the plan using the Cyclic Logic loop.
-* **S3 (Termination):** Flushes short-term memory for the next task.
+**Vex_System** is a highly optimized, high-compute system prompt designed to enforce rigorous engineering standards, recursive logic, and state persistence in Large Language Models (LLMs). Unlike standard prompts that encourage "one-shot" generation, Vex_System forces the model to **Plan, Simulate, Critique, and Verify** every step of the engineering process.
 
 ---
 
-## 🛠️ Operational Modes
+## 🚀 Key Capabilities
 
-Kael is strict. It does not guess your intent. It relies on **Trigger Keywords** at the start of your prompt to load specific neural circuits.
+### 🧠 1. Dual-Layer Planning Engine
+The system never executes code without two distinct blueprints:
+* **Layer 1 (The What):** A concrete technical architecture (Design Patterns, Tech Stack).
+* **Layer 2 (The How):** A matched "Prompting Strategy" (e.g., instructing itself to use *Chain-of-Thought* for logic or *Few-Shot* for boilerplate).
 
-| Mode | Trigger Keyword | Function | S1 Output Schema |
-| :--- | :--- | :--- | :--- |
-| **New Build** | `NEW_BUILD` | Creating architectures, codebases, or complex logic from scratch. | **Requirements Matrix** + Strategy Plan |
-| **Refactor** | `REFACTOR` | Optimizing existing code/text. Requires a source input. | **SWOT Audit** (Strengths/Weaknesses) + Refactor Plan |
-| **Direct** | `OVERRIDE` | Bypasses the Planning Phase (S1) for immediate answers. | *None* (Jumps to Execution) |
+### 🌳 2. Tree-of-Thoughts (ToT) Simulation
+Before committing to a plan, the Architect Mode generates **3 distinct strategic branches** (e.g., *The Robust Tank* vs. *The Innovative SOTA*). It simulates the outcome of each and votes for the best fit based on the user's implicit "vibe" and constraints.
+
+### 🔄 3. ReAct + Reflexion Engineering Loop
+The coding phase is not linear. It uses a recursive **"Think → Draft → Test → Fix"** loop:
+1.  **ReAct:** Defines the strategy and retrieves context (variables/imports) *before* drafting.
+2.  **Sandbox:** Writes code to satisfy a mental "Test-Driven" assertion.
+3.  **Reflexion:** Self-audits for anti-patterns and thread safety.
+4.  **Backtracking:** If a step fails validation, the system **stops** and requests a re-plan rather than hallucinating a fix.
+
+### 📝 4. State Persistence (The Progress Tracker)
+To combat "Lost in the Middle" phenomena, the system maintains a **Visual State Vector** (a dynamic To-Do list) at the top of every output. This forces the model to recall its global progress at the start of every turn.
 
 ---
 
-## 🚀 Installation & Usage
+## 📦 Installation
 
-### 1. Prerequisite
-You must have access to **Gemini Advanced** (with Thinking Mode) or **Gemini Enterprise** (Google Workspace). This prompt relies on large context windows and high-reasoning capabilities.
+### Option A: System Prompt (Recommended)
+Copy the entire XML block from `Vex_System_v9.1.xml` (or the source file) and paste it into the **System Instructions** field of your LLM interface.
+* **Target Models:** Claude 3.5 Sonnet, GPT-4o, Gemini 1.5 Pro, o1-preview.
 
-### 2. Injection
-1.  Copy the full XML content from `kael_v3.2_system_prompt.xml`.
-2.  Open **Gemini System Instructions** (or "Custom Instructions" in your API settings).
-3.  Paste the XML raw.
-4.  Save.
+### Option B: Custom Instructions
+If using ChatGPT (Consumer), paste the XML block into the "How would you like ChatGPT to respond?" field.
 
-### 3. Verification
-Start a new chat. Kael should immediately silence the default "Hello!" and output his CLI Boot Sequence:
+---
 
-```yaml
-KAEL_CORE_SYSTEM: ONLINE
------------------------
-[✔] KNOWLEDGE_ENGINE:   ACTIVE (Deep Research Enabled)
-[✔] LOGIC_CORE:         RECURSIVE (Evaluator-Optimizer Loaded)
-[✔] USER_CONTEXT:       STAFF_ENGINEER (High-Bandwidth Protocol)
-[✔] MODE_SELECTOR:      READY (New_Build / Refactor / Override)
+## 🕹️ Operational Modes
 
-> Awaiting Directive...
+Once initialized, the system waits for a high-level intent directive:
+
+| Mode | Trigger | Function |
+| :--- | :--- | :--- |
+| **NEW_BUILD** | `NEW_BUILD` | Starts the Architect -> Engineer pipeline. Analyzes task, generates ToT branches, plans, and executes. |
+| **REFACTOR** | `REFACTOR` | Audits existing code using **Linter Logic** (`PASS` / `WARNING` / `CRITICAL`). Fixes Critical issues using the full Architect pipeline. |
+| **LEARN** | `LEARN` | **Feynman Protocol.** Deeply ingests a resource and explains the *mechanism* (not just the description) via "ELI5" teaching + System Rule Compilation. |
+| **OVERRIDE** | `OVERRIDE` | Bypasses the Architect phase for immediate, direct answers (Fast Path). |
+
+---
+
+## 🛠️ The Workflow (Visualized)
+
+```mermaid
+graph TD
+    A[User Request] --> B{Task Analysis}
+    B -->|Complex?| C[Architect Phase]
+    B -->|Simple?| D[Direct Override]
+    
+    C --> E[Tree of Thoughts]
+    E --> F[Dual-Layer Blueprints]
+    F --> G[Engineering Loop]
+    
+    G --> H{ReAct + Reflexion}
+    H -->|Pass| I[Commit Code & Update Tracker]
+    H -->|Fail| J[Dynamic Backtracking / Re-Plan]
+
+```
+
+---
+
+## 🛡️ License & Philosophy
+
+**Vex_System** is built on the philosophy of **"Slow Thinking"** (System 2). We prioritize:
+
+1. **Accuracy** over Speed.
+2. **Robustness** over "Cleverness."
+3. **Verification** over Trust.
+
+*Open Source. Feel free to fork, optimize, and share your own "Operational Modes."*
