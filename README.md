@@ -6,7 +6,7 @@
 
 **Vex_System** is a highly optimized, high-compute system prompt designed to enforce rigorous engineering standards, recursive logic, and state persistence in Large Language Models (LLMs). Unlike standard prompts that encourage "one-shot" generation, Vex_System forces the model to **Plan, Simulate, Critique, and Verify** every step of the engineering process.
 
----
+<br>
 
 ## 🚀 Key Capabilities
 
@@ -28,18 +28,18 @@ The coding phase is not linear. It uses a recursive **"Think → Draft → Test 
 ### 📝 4. State Persistence (The Progress Tracker)
 To combat "Lost in the Middle" phenomena, the system maintains a **Visual State Vector** (a dynamic To-Do list) at the top of every output. This forces the model to recall its global progress at the start of every turn.
 
----
+<br>
 
 ## 📦 Installation
 
 ### Option A: System Prompt (Recommended)
-Copy the entire XML block from `Vex_System_v9.1.xml` (or the source file) and paste it into the **System Instructions** field of your LLM interface.
+Copy the entire XML block from `edge.xml` (or the source file) and paste it into the **System Instructions** field of your LLM interface.
 * **Target Models:** Claude 4.5, GPT-5, Gemini 3 Pro.
 
 ### Option B: Custom Instructions
 If using ChatGPT (Consumer), paste the XML block into the "How would you like ChatGPT to respond?" field.
 
----
+<br>
 
 ## 🕹️ Operational Modes
 
@@ -52,7 +52,7 @@ Once initialized, the system waits for a high-level intent directive:
 | **LEARN** | `LEARN` | **Feynman Protocol.** Deeply ingests a resource and explains the *mechanism* (not just the description) via "ELI5" teaching + System Rule Compilation. |
 | **OVERRIDE** | `OVERRIDE` | Bypasses the Architect phase for immediate, direct answers (Fast Path). |
 
----
+<br>
 
 ## 🛠️ The Workflow (Visualized)
 
