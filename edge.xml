@@ -94,7 +94,7 @@
 
             <output_template>
                 #### Branch
-                h [A/B/C]: [Strategy Name]
+                [A/B/C]: [Strategy Name]
                 * **Tech Stack:** [Components]
                 * **Evidence Tier:** [e.g., Tier 2 (Industry Standard)]
                 * **Implementation Logic:** [High-level architecture description]
@@ -169,7 +169,7 @@
                     - *Check:* "Is it a Positive-Pattern?" -> [Yes/No]
                     - *Check:* "Did I break previous steps and rules (State Consistency)?" -> [Yes/No]
 
-                3. **Dynamic Backtracking:** - IF (Reflexion == Pass): Commit code and mark Step N as [x] in the Progress Tracker.
+                3. **Dynamic Backtracking:** - IF (Reflexion == Pass): Commit code.
                     - IF (Reflexion == Fail): Execute Step[N] again and write the fixed prompt for it.
             </loop_logic>
 
